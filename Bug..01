@@ -1,0 +1,56 @@
+Include stacktrace here
+I: Using Apktool 2.6.1 on whatsapp-messenger-2-22-24-18.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: C:\Users\....\AppData\Local\apktool\framework\1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+S: Could not decode file, replacing by FALSE value: cr.xml
+S: Could not decode file, replacing by FALSE value: cg8.xml
+S: Could not decode file, replacing by FALSE value: ckr.xml
+S: Could not decode file, replacing by FALSE value: bh5.png
+S: Could not decode file, replacing by FALSE value: l0.png
+S: Could not decode file, replacing by FALSE value: og.png
+S: Could not decode file, replacing by FALSE value: vn.png
+S: Could not decode file, replacing by FALSE value: lc.png
+S: Could not decode file, replacing by FALSE value: b0r.png
+S: Could not decode file, replacing by FALSE value: bbd.9.png
+S: Could not decode file, replacing by FALSE value: lw.9.png
+S: Could not decode file, replacing by FALSE value: 4e.png
+
+[...]
+
+S: Could not decode file, replacing by FALSE value: csr.xml
+S: Could not decode file, replacing by FALSE value: b9q.png
+S: Could not decode file, replacing by FALSE value: bzx.png
+S: Could not decode file, replacing by FALSE value: b3f.png
+S: Could not decode file, replacing by FALSE value: bay.png
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Baksmaling classes2.dex...
+I: Baksmaling classes3.dex...
+I: Baksmaling classes4.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+I: Copying META-INF/services directory
+
+### Steps to Reproduce
+1.  java -jar apktool.jar d whatsapp-messenger-2-22-24-18.apk
+
+### Frameworks
+-
+
+### APK
+https://whatsapp-messenger.de.uptodown.com/android
+https://play.google.com/store/apps/details?id=com.whatsapp&hl=de&gl=US
+
+### Questions to ask before submission
+1. Have you tried `apktool d`, `apktool b` without changing anything?
+Yes
+
+2. If you are trying to install a modified apk, did you resign it?
+I only try to decompile it
+
+3. Are you using the latest apktool version?
+Yes
